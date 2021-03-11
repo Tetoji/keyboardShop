@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel = "stylesheet" type = "text/css" href = "./style-contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">                                        <!--adds font "Poppins"-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class = "navigation-bar">
+            <div class = "logo">            <!--Logo directs to the start-page-->
+                <a href = "start.html">
+                    <img alt = "Logo" src = "Logo.png" width = "60px" height = "auto">
+                </a>
+            </div>
+            <nav>
+                <ul class = "navlist">
+                    <li>
+                        <a id = "navlink" href="#">
+                            <div class="dropdown">
+                                Products
+                                <div class="dropdown-content">
+                                    <a href = "K3.html"><red>[HOT]</red> Keychron K3 (Pre-order)</a>
+                                    <a href = "#"><red>[SALE 15%]</red> Keychron K4 (Version 1)</a>
+                                    <a href = "#">Keychron K4 (Version 2)</a>
+                                    <a href = "#">Keychron K6</a>
+                                    <a href = "#">Keychron K8</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a  id = "navlink" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class = "cart">
+                <a href = "#">
+                    <img alt = "cart" src = "Shopping-Cart.png" width = "30px" height = "auto">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <dib class = "contactformular">
+            <div class = "container">
+                <form method = "post" name = "myemailform" action = "form-to-email.php">
+                    <label for = "fname">First Name</label><br>
+                    <input type = "text" id = "fname" name = "firstname" placeholder = "Your name.."><br>
+                    <label for = "lname">Last Name</label><br>
+                    <input type = "text" id = "lname" name = "lastname" placeholder = "Your last name.."><br>
+                    <label for = "country">Country</label><br>
+                    <select id = "country" name = "country">
+                        <option value = "austria">Australia</option>
+                        <option value = "australia">Austria</option>
+                        <option value = "canada">Canada</option>
+                        <option value = "germany">Germany</option>
+                        <option value = "usa">USA</option>
+                    </select><br>
+                    <label for = "lname">E-Mail</label><br>
+                    <input type = "text" id = "email" name = "email" placeholder = "Your E-Mail.."><br>
+                    <label for = "subject">Subject</label><br>
+                    <textarea id = "subject" name = "subject" placeholder = "Write something.." style = "height:200px"></textarea><br>
+                    <input type = "submit" value = "Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class = "impressum">
+        <h6>TS Tech Online GmbH & Co. KG<br/>
+        Musterweg 12A | 99999 Musterhausen<br/>
+        Tel: 09994 /  999999</h6>
+    </div>
+</body>
+</html>
