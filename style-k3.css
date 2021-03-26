@@ -121,6 +121,12 @@ nav
     display: block;
 }
 
+/*----------------------------Slides----------------------------*/
+.slides 
+{
+    display: flex;
+}
+
 /*----------------------------Bildschirmbreite----------------------------*/
 @media screen and (max-width: 700px)
 {
@@ -128,7 +134,7 @@ nav
     {
         padding: 4px;
     }
-    
+
     .navigation-bar
     {
         width: 80%;
