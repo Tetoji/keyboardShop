@@ -7,6 +7,8 @@
     <link rel = "stylesheet" type = "text/css" href = "./style-k3.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">                                        <!--adds font "Poppins"-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">    <!--adds font "Poppins"-->
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+
     <title>Document</title>
 </head>
 
@@ -45,13 +47,20 @@
         </div>
     </header>
     <main>
-        <div class = "slider">          <!--Image slides -->
-            <div class = "slides">
-                <img src= "pics/K3-1-cut.png">
+        <div class = "carousel-container">          <!--Image slides -->
+            <div class = "slide">
+                <img src= "pics/K3-2.png" id = "lastClone">
 
-                <img src= "pics/K3-2-resize.png">
+                <img src= "pics/K3-1(1).png">
+                <img src= "pics/K3-2 abc.png">
+
+                <img src= "pics/K3-1(1).png" id = "firstClone">
             </div>
         </div>
+        
+        <button id = "prvButton">Prev</button>
+        <button id = "nextButton">Next</button>
+        <script src = "app.js"></script>
     </main>
 </body>
 </html>

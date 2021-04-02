@@ -44,7 +44,7 @@ red
 
 nav
 {
-    margin: 5px;
+    margin: px;
     flex: 3;
     font-size: 16px;
 }
@@ -122,9 +122,17 @@ nav
 }
 
 /*----------------------------Slides----------------------------*/
-.slides 
+.carousel-container
+{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slide
 {
     display: flex;
+    width: 100%;
+    height: 800px;
 }
 
 /*----------------------------Bildschirmbreite----------------------------*/
