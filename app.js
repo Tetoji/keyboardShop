@@ -30,7 +30,7 @@
         carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
     });
 
-    carouselSlide.addEventListener('transitioned', () => 
+    carouselSlide.addEventListener('transitionend', () => 
     {
         if (carouselImage[counter].id === 'lastClone')
         {
