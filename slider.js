@@ -1,4 +1,4 @@
-
+    //Variables
     const carouselSlide = document.querySelector('.slide');
     const carouselImage = document.querySelectorAll('.slide img');
 
@@ -13,7 +13,6 @@
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
     //Button Listers
-
     nextButton.addEventListener('click', () => 
     {
         if (counter >= carouselImage.length - 1) return;
@@ -46,5 +45,3 @@
             carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
         }
     });
-
-//-----------------------------------------------//
