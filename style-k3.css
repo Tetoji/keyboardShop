@@ -13,17 +13,28 @@ header
     background-color: white;
     z-index: 1;
     padding-bottom: 10px;
+    border-bottom: #e8e8e8 solid 1px;
 }
 h1
 {
     font-weight: bolder;
     font-size: 32px;
 }
+h2
+{
+    font-weight: lighter;
+}
 h5
 {
     font-weight:bold;
     font-size: 16px;
 }
+hr
+{
+    border: #e8e8e8 solid 1px;
+    margin: 0;
+}
+
 red
 {
     color: red;
@@ -40,11 +51,11 @@ red
     align-items: center;
     position: relative;
     background-color: white;
+    
 }
 
 nav
 {
-    margin: px;
     flex: 3;
     font-size: 16px;
 }
@@ -158,6 +169,63 @@ nav
     opacity: .5;
     position: absolute;
     cursor: pointer;
+}
+/*----------------------------Product Info----------------------------*/
+.productInfo
+{
+    margin: auto;
+    width: 80vw;
+    height: 800px;
+    display: flex;
+}
+
+.options
+{
+    flex: 1;
+    border: #4f4f4f solid 1px;
+}
+
+.picture
+{
+    flex: 1;
+    border: #c95eff solid 1px;
+} 
+
+
+button
+{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 2px;
+    margin-right: 2px;
+    padding: 10px;
+}
+
+button[class = whiteBacklight]
+{
+    background-color: transparent;
+    border: #c95eff solid 2px;
+}
+
+button[class = rgbBacklight]
+{
+    background-color: transparent;
+    border: #c95eff solid 2px;
+}
+
+button[class = whiteBacklight]:hover
+{
+    background-color: #d278ff;
+    border: #c95eff solid 2px;
+    color: white;
+}
+
+button[class = rgbBacklight]:hover
+{
+    background-color: #d278ff;
+    border: #c95eff solid 2px;
+    color: white;
 }
 
 

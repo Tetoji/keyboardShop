@@ -1,3 +1,4 @@
+    
     //Variables
     const carouselSlide = document.querySelector('.slide');
     const carouselImage = document.querySelectorAll('.slide img');
